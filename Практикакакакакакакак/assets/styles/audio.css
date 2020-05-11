@@ -1,0 +1,32 @@
+.contain{
+	display: flex;
+	justify-content: center;
+	
+}
+.main{
+	background-color: white;
+	width: 60%;
+	height: 100%;
+}
+audio{
+	
+	
+	margin-top: 30px;
+	margin-right: 60px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+audio::-webkit-media-controls-panel{
+	background-color: black;
+}
+audio::-webkit-media-controls-play-button
+{
+	width: 20px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: aqua;
+}
+p{
+	font-weight: 900;
+	margin-left: 20px;
+}

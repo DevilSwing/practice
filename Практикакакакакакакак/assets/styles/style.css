@@ -1,0 +1,170 @@
+
+
+body, h1, h2 {
+    margin: 0;
+    font-family: "Trebuchet MS";
+}
+
+*{
+	box-sizing: border-box;
+}
+body {
+	/*background-image: url(../images/backgra.jpg);*/
+	color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+	text-decoration: none;
+}
+.container {
+
+
+	margin: 0 auto;
+	width: 1170px;
+}
+
+header {
+	width: 100%;
+	background: black;
+	height: 80px;
+	text-align: right;
+	border-bottom: 1px solid #494849
+	
+}
+header .container {
+	width: 1050px; 
+}
+
+
+header img {
+	width: 80px;
+	height: 55px;
+	float: left;
+  padding-top: 10px;
+}
+
+.audio img{
+  width: 60px;
+  height: 55px;
+}
+header a{
+	color: lime;
+	line-height: 70px;
+	margin-left: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+footer{
+text-align: center;
+
+  background-color: black;
+  width: 100%;
+  flex: 0 0 auto;
+  padding-bottom: 20px;
+    padding-top: 30px;
+  }
+
+footer a{
+  display: inline-block;
+
+  width: 20%;
+  color: white;
+}
+
+
+.sidebar{
+  width: 30%;
+  float: left;
+  margin: 10px;
+  background-color:  rgb(250,235,199); 
+  padding: 10px 20px;
+  border: 1px dotted rgb(252,101,18);
+  border-top: 20px solid rgb(252,101,18); 
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+  position: fixed;
+}
+
+.text{
+  width: 880px;
+  float: right;
+  margin: 10px;
+  background-color:  rgb(250,235,199); 
+  padding: 10px 20px;
+  border: 1px dotted rgb(252,101,18);
+  border-top: 20px solid blue; 
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+#menuVertical{
+  width:240px;
+  height:auto;
+}
+    #menuVertical ul{
+        display:block;
+        width:200px;
+        height:auto;
+        margin:0px;
+        padding:0px;
+        list-style:none;
+        position:relative;
+
+    }
+        #menuVertical ul li{
+          display:block;
+         width:100%;
+          height:auto;
+           position:relative;
+         }
+            #menuVertical ul li a{
+                position:relative;
+                display:block;
+                width:200px;
+                height:auto;
+                box-sizing:border-box;
+                font-size:13px;
+                text-transform:uppercase;
+                font-weight:bold;
+                color:red;
+                line-height:1.2em;
+                padding:10px 15px;
+                background:black;
+                border-top:1px solid lime;
+                text-decoration:none;
+                
+            }
+            #menuVertical ul > li:first-child > a{border:0px;}
+            #menuVertical ul li a:hover, #menuVertical ul li:hover a{
+                background:white;
+                color: black;
+                transition: .5s;
+            }
+            #menuVertical ul li ul{
+                position:absolute;
+                top:0px;
+                left:100%;
+                display:none;
+                width:150px;
+            }
+           
+            #menuVertical ul li:hover > ul{display:block;}
+                #menuVertical ul li ul li a{
+                    text-transform:none;
+                    padding:5px 20px;
+                    transition: .5s;
+                }
+                    #menuVertical ul li ul li a:hover, #menuVertical ul li ul li:hover > a{
+                      background:black;
+                      color: yellow;
+
+                    }
+h1{
+  text-align: center;
+  font-size: 32px;
+}

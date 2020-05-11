@@ -1,0 +1,19 @@
+.contain{
+	display: flex;
+	justify-content: center;
+	
+}
+.main{
+	background-color: white;
+	width: 60%;
+	height: 100%;
+}
+iframe{
+	margin-left: 110px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+p{
+	font-weight: 900;
+	margin-left: 20px;
+}
